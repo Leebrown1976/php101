@@ -9,9 +9,12 @@
     $class = "Php 101";
 
     switch ($class) {
-        __ 'Php 101':
+        case "Php 101":
             echo "Is Awesome!";
-            __;
+            break;
+        case "How About":
+            echo "Your Mom!";
+            break;
     }
     ?>
   </body>
