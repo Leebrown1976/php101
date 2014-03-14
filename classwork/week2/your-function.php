@@ -10,6 +10,15 @@
     // else return $name as a formatted string "This is your first function $name!"
 
     // write a function that takes an argument and returns the square of that arguemtn
+
+    function namer($name = null) {
+        if ($name == null){
+        return "No Name Set";
+        }else return "This is your first function " . $name; 
+    }
+
+    echo namer("Lee");
+
     ?>
   </body>
 </html>

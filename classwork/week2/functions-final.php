@@ -26,6 +26,15 @@
     // if the current index of the array is even, give the list item a class of even
 
     // next get a random item from the array and print it out
+    sort($fruits);
+    foreach ($fruits as $fruit) :
+      if (strlen($fruit) > 5) {
+        $fruit = ucfirst($fruit);
+      }
     ?>
+    <li class="><?php echo $i % 2 == 0 ? 'even' : 'odd'; ?>"><?php echo $fruit; ?></li>
+
+
+  <?php $i++; endforeach; ?>
   </body>
 </html>

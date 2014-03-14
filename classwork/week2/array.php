@@ -13,6 +13,13 @@
     // push the number from the for loop into an array if it is divisible by 2
     // once the loop is complete remove the first and last elements of the array
     // print out the number of elements in the array
+
+    $name = 'Lee Brown';
+    $nameArray = explode(' ', $name);
+    echo $name;
+    $nameArray = implode('+', $nameArray);
+    echo $nameArray;
+    echo "this works!!";
     ?>
   </body>
 </html>
